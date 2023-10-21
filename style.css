@@ -1,0 +1,121 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* body {
+    background-image: url(/img/background.jpg);
+    background-size: cover;
+    size: 700px;
+} */
+
+#head {
+    background-color: #96C3CE;
+    margin: 20px 500px 10px 10px;
+    font-family: Times, New Roman;
+    width: 700px;
+    height: 220px;
+    display: grid;
+}
+
+#head>h1 {
+    font-family: Times, New Roman;
+    text-decoration: solid;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#head>h2 {
+    margin-top: 35px;
+    text-align: center;
+    text-decoration: solid;
+    font-family: Times, New Roman;
+}
+
+#head>img {
+    width: 100px;
+    height: 100px;
+    margin-left: 10px 200px 30px 400px;
+    border-radius: 50%;
+    border: 2px solid #73C1C6;
+}
+
+#head #link {
+    margin: -200px 10px 100px 680px;
+    display: grid;
+}
+
+#myself #abt {
+    font-family: Times New Roman;
+    font-weight: bolder;
+}
+
+#myself {
+    margin: 30px;
+    width: 700px;
+    height: 200px;
+}
+
+#about {
+    background-color: #73C1C6;
+    font-weight: 500;
+    margin: 30px;
+    width: 680px;
+    height: 20px;
+}
+
+#info {
+    font-size: 15px;
+    font-weight: 100;
+    display: block;
+    color: rgb(87, 23, 184);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.ined {
+    margin: 30px;
+    background-color: #73C1C6;
+    text-align: center;
+    align-items: center;
+    width: 700px;
+}
+
+#tab {
+    margin: 30px;
+}
+
+#tab th {
+    border: 1px solid rgb(21, 6, 6);
+}
+
+#tab td {
+    border: 1px solid rgb(32, 5, 5);
+}
+
+.edu {
+    width: 700px;
+    text-align: center;
+    margin: 20px;
+    font-family: 'Times New Roman';
+}
+
+.edu p {
+    width: 700px;
+    text-align: center;
+    margin: 20px;
+    font-family: 'Times New Roman';
+    background-color: #4BC6B9;
+}
+
+.edu>ul>li {
+    text-align: justify;
+    margin-left: 70px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-family: Gill Sans;
+}
